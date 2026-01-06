@@ -22,27 +22,26 @@ Ein universelles Debug-Board für die OE5XRX-Modulplattform zur Entwicklung, Ana
 ## ✅ To-do Liste (Schaltplan – Hierarchisch)
 
 ### 🔌 1. USB & USB-Hub (`usb_hub.sch`)
-- [ ] USB-C Buchse mit ESD-Schutz (TVS)
-- [ ] USB-Hub IC (z. B. FS1.1, TUSB2046B, GL850G)
-- [ ] Downstream-Port 1: Debug-STM32
-- [ ] Downstream-Port 2: DUT USB-Buchse
-- [ ] Downstream-Port 3: ST-Link USB
-- [ ] Taktquelle für USB-Hub (z. B. 12 MHz Quarz)
-- [ ] Serienwiderstände & Pull-Ups gemäß Datenblatt
-- [ ] VBUS-/VBUS-Switch-Logik
+- [x] USB-C Buchse mit ESD-Schutz (TVS)
+- [x] USB-Hub IC (z. B. FS1.1, TUSB2046B, GL850G)
+- [x] Downstream-Port 1: Debug-STM32
+- [x] Downstream-Port 2: ST-Link USB
+- [x] Downstream-Port 3: DUT USB-Buchse
+- [x] Taktquelle für USB-Hub (z. B. 12 MHz Quarz)
+- [x] Serienwiderstände & Pull-Ups gemäß Datenblatt
 
 ### 🧠 2. Debug-Controller (`stm32.sch`)
-- [ ] STM32F302CBTx (LQFP-48)
-- [ ] Reset-Schaltung & ggf. Quarz
-- [ ] USB-Anbindung zum Hub
+- [x] STM32F302CBTx (LQFP-48)
+- [x] Reset-Schaltung & ggf. Quarz
+- [x] USB-Anbindung zum Hub
 - [ ] GPIO-Zuweisungen:
-  - [ ] I²C für OLED & INA226
+  - [x] I²C für OLED & INA226
   - [ ] Taster (3×)
-  - [ ] DUT_RESET
-  - [ ] DUT_VCC_EN
-  - [ ] INA226_ALERT
-- [ ] Status-LEDs (Power, Status, Fehler)
-- [ ] Optional: eigene SWD-Schnittstelle
+  - [x] DUT_RESET
+  - [x] DUT_VCC_EN
+  - [x] INA226_ALERT
+- [ ] Status-LEDs (Power, Status, Fehler) -> I2C LED
+- [x] Optional: eigene SWD-Schnittstelle
 
 ### 🧷 3. ST-Link Interface (`stlink.sch`)
 - [ ] USB-A Buchse oder Pfostenleiste für ST-Link-Verbindung

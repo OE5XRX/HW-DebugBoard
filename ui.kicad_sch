@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ab04b882-572e-4ad7-b7ee-e7e353733c9c")
+	(paper "A4")
+	(title_block
+		(title "DebugBoard")
+		(rev "<<HASH>>")
+		(company "Amateurfunkclub für Remote Stationen")
+	)
+	(lib_symbols)
+)

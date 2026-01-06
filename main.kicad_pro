@@ -778,7 +778,7 @@
     ],
     [
       "2986b648-d6e4-4f37-95a0-c0a0bf4ce6d9",
-      "STM32"
+      "Debug-Controller"
     ],
     [
       "3e14524a-e89f-475c-8490-f5cddd2eec77",
@@ -787,6 +787,30 @@
     [
       "1b089934-e74e-41e6-aad9-3661a2475aec",
       "Power"
+    ],
+    [
+      "77891167-0ccd-46b9-b393-55bbf8e2dec5",
+      "USB Hub"
+    ],
+    [
+      "21498f39-a1cc-41b0-a941-3e2d897627b6",
+      "ST-Link Interface"
+    ],
+    [
+      "ef24f53f-f4ef-491d-98cb-d3a646da3d74",
+      "Display & UI"
+    ],
+    [
+      "b7839a28-8115-43e4-a4fb-2d596b7740c4",
+      "DUT Power Control"
+    ],
+    [
+      "9647d80f-843f-45c0-950d-b04b6dbce3c2",
+      "Strom-Spannungsmessung"
+    ],
+    [
+      "4f8158b0-0961-44de-9899-c669fc1a50b4",
+      "DUT Interface Header"
     ]
   ],
   "text_variables": {}
