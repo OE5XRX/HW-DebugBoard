@@ -1,10 +1,10 @@
 ---
-title: <NAME>
+title: DebugBoard
 nav_order: 1
 parent: Hardware
 ---
 
-# <NAME> PCB
+# DebugBoard PCB
 
 <table>
   <tr><th>Top</th><th>Bottom</th></tr>
