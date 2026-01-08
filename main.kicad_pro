@@ -811,6 +811,14 @@
     [
       "4f8158b0-0961-44de-9899-c669fc1a50b4",
       "DUT Interface Header"
+    ],
+    [
+      "7fb85a85-298d-489a-83e9-b51a73cb28d0",
+      "SW Port"
+    ],
+    [
+      "4de6f778-d6ef-4181-8ca5-1bc42ed36179",
+      "SW Port"
     ]
   ],
   "text_variables": {}

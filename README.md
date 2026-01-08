@@ -40,7 +40,6 @@ Ein universelles Debug-Board für die OE5XRX-Modulplattform zur Entwicklung, Ana
   - [x] DUT_RESET
   - [x] DUT_VCC_EN
   - [x] INA226_ALERT
-- [ ] Status-LEDs (Power, Status, Fehler) -> I2C LED
 - [x] Optional: eigene SWD-Schnittstelle
 
 ### 🧷 3. ST-Link Interface (`stlink.sch`)
@@ -57,17 +56,17 @@ Ein universelles Debug-Board für die OE5XRX-Modulplattform zur Entwicklung, Ana
 - [ ] GPIO-Zuweisungen zu STM32
 
 ### ⚡ 5. DUT Power Control (`power_switch.sch`)
-- [ ] Lastschalter (z. B. TPS22919 oder ähnliche)
-  - [ ] Enable via STM32
-  - [ ] Versorgung 3V3
-- [ ] Abblock-Cs, evtl. Reverse Protection
+- [x] Lastschalter - TPS22917
+  - [x] Enable via STM32
+  - [x] Versorgung 5V
+- [x] Abblock-Cs, evtl. Reverse Protection
 - [ ] Spannungsversorgung zum DUT Header
 
 ### 📊 6. Strom-/Spannungsmessung (`ina226.sch`)
-- [ ] INA226 am I²C
-- [ ] Shunt-Widerstand (0.1 Ω, 1%, >0.5 W)
-- [ ] Alert-Signal an STM32
-- [ ] Serienschaltung im VCC Pfad zum DUT
+- [x] INA226 am I²C
+- [x] Shunt-Widerstand (0.01 Ω, 1%, >0.5 W)
+- [x] Alert-Signal an STM32
+- [x] Serienschaltung im VCC Pfad zum DUT
 
 ### 🔁 7. DUT Interface Header (`hil_interface.sch`)
 - [ ] SHF-110-01-L-D-RA (2×10)
