@@ -68,28 +68,7 @@
           "width": 0.315468
         }
       ],
-      "drc_exclusions": [
-        [
-          "starved_thermal|119397000|119577500|c02422d8-cc7f-4c86-82d5-4a4dd0636d87|daf4b8d6-1ac1-458f-957c-0b7528f299f8|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|121605000|120146500|0d57c912-bc54-4d5b-a9fe-8d4701a1af7f|7b6f5d5b-bbf1-484d-958a-dde10dc61f2f|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|125100000|119572000|c02422d8-cc7f-4c86-82d5-4a4dd0636d87|4a3b67ab-063c-4bb8-8f74-4be2a4630cc1|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|182239500|81290000|9bb367e3-a959-4f7e-afea-a0e97f371166|22329758-0c9e-4a51-bd81-8c3222249a7a|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|191643000|85001000|9bb367e3-a959-4f7e-afea-a0e97f371166|8406c762-93b5-4d0e-bc42-d25249cfe748|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -778,7 +757,7 @@
     ],
     [
       "2986b648-d6e4-4f37-95a0-c0a0bf4ce6d9",
-      "STM32"
+      "Debug-Controller"
     ],
     [
       "3e14524a-e89f-475c-8490-f5cddd2eec77",
@@ -787,6 +766,38 @@
     [
       "1b089934-e74e-41e6-aad9-3661a2475aec",
       "Power"
+    ],
+    [
+      "77891167-0ccd-46b9-b393-55bbf8e2dec5",
+      "USB Hub"
+    ],
+    [
+      "21498f39-a1cc-41b0-a941-3e2d897627b6",
+      "ST-Link Interface"
+    ],
+    [
+      "ef24f53f-f4ef-491d-98cb-d3a646da3d74",
+      "Display & UI"
+    ],
+    [
+      "b7839a28-8115-43e4-a4fb-2d596b7740c4",
+      "DUT Power Control"
+    ],
+    [
+      "9647d80f-843f-45c0-950d-b04b6dbce3c2",
+      "Strom-Spannungsmessung"
+    ],
+    [
+      "4f8158b0-0961-44de-9899-c669fc1a50b4",
+      "DUT Interface Header"
+    ],
+    [
+      "7fb85a85-298d-489a-83e9-b51a73cb28d0",
+      "SW Port"
+    ],
+    [
+      "4de6f778-d6ef-4181-8ca5-1bc42ed36179",
+      "SW Port"
     ]
   ],
   "text_variables": {}
