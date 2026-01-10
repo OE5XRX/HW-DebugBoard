@@ -5,7 +5,7 @@
 	(uuid "9a9ab873-bb0a-4d8c-8da8-5f5a3064256d")
 	(paper "A4")
 	(title_block
-		(title "DebugBoard")
+		(title "SW Port")
 		(rev "<<HASH>>")
 		(company "Amateurfunkclub für Remote Stationen")
 	)
@@ -653,7 +653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10c4d800-ed45-4893-8252-3b90366a93e6")
-		(property "Reference" "#PWR01102"
+		(property "Reference" "#PWR01101"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -703,11 +703,11 @@
 		(instances
 			(project "main"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/2986b648-d6e4-4f37-95a0-c0a0bf4ce6d9/7fb85a85-298d-489a-83e9-b51a73cb28d0"
-					(reference "#PWR01102")
+					(reference "#PWR01101")
 					(unit 1)
 				)
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4/4de6f778-d6ef-4181-8ca5-1bc42ed36179"
-					(reference "#PWR01202")
+					(reference "#PWR01201")
 					(unit 1)
 				)
 			)
@@ -723,7 +723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c726727-b5e0-4c0d-b43e-443ccaf5e42f")
-		(property "Reference" "#PWR01101"
+		(property "Reference" "#PWR01102"
 			(at 163.83 97.79 0)
 			(effects
 				(font
@@ -773,11 +773,11 @@
 		(instances
 			(project ""
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/2986b648-d6e4-4f37-95a0-c0a0bf4ce6d9/7fb85a85-298d-489a-83e9-b51a73cb28d0"
-					(reference "#PWR01101")
+					(reference "#PWR01102")
 					(unit 1)
 				)
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4/4de6f778-d6ef-4181-8ca5-1bc42ed36179"
-					(reference "#PWR01201")
+					(reference "#PWR01202")
 					(unit 1)
 				)
 			)

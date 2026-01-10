@@ -34,33 +34,33 @@ Ein universelles Debug-Board für die OE5XRX-Modulplattform zur Entwicklung, Ana
 - [x] STM32F302CBTx (LQFP-48)
 - [x] Reset-Schaltung & ggf. Quarz
 - [x] USB-Anbindung zum Hub
-- [ ] GPIO-Zuweisungen:
+- [x] GPIO-Zuweisungen:
   - [x] I²C für OLED & INA226
-  - [ ] Taster (3×)
+  - [x] Taster (3×)
   - [x] DUT_RESET
   - [x] DUT_VCC_EN
   - [x] INA226_ALERT
 - [x] Optional: eigene SWD-Schnittstelle
 
 ### 🧷 3. ST-Link Interface (`stlink.sch`)
-- [ ] USB-A Buchse oder Pfostenleiste für ST-Link-Verbindung
+- [x] USB-A Buchse oder Pfostenleiste für ST-Link-Verbindung
 - [ ] Mechanik zur Befestigung des ST-Link (z. B. Kabelbinderloch)
-- [ ] Rückführung der SWD-Leitungen zum Board:
-  - [ ] Wannenstecker zu DUT
-  - [ ] Optional: Debug-STM32 Flashbarkeit
+- [x] Rückführung der SWD-Leitungen zum Board:
+  - [x] Wannenstecker zu DUT
+  - [x] Optional: Debug-STM32 Flashbarkeit
 
 ### 📟 4. Display & UI (`ui.sch`)
-- [ ] SSD1306 OLED über I²C
+- [x] SSD1306 OLED über I²C
 - [ ] I²C Pull-Ups (z. B. 4.7 kΩ)
-- [ ] 3 Taster mit Pull-Ups
-- [ ] GPIO-Zuweisungen zu STM32
+- [x] 3 Taster mit Pull-Ups
+- [x] GPIO-Zuweisungen zu STM32
 
 ### ⚡ 5. DUT Power Control (`power_switch.sch`)
 - [x] Lastschalter - TPS22917
   - [x] Enable via STM32
   - [x] Versorgung 5V
 - [x] Abblock-Cs, evtl. Reverse Protection
-- [ ] Spannungsversorgung zum DUT Header
+- [x] Spannungsversorgung zum DUT Header
 
 ### 📊 6. Strom-/Spannungsmessung (`ina226.sch`)
 - [x] INA226 am I²C
@@ -69,27 +69,27 @@ Ein universelles Debug-Board für die OE5XRX-Modulplattform zur Entwicklung, Ana
 - [x] Serienschaltung im VCC Pfad zum DUT
 
 ### 🔁 7. DUT Interface Header (`hil_interface.sch`)
-- [ ] SHF-110-01-L-D-RA (2×10)
-- [ ] Finales Pinout definiert:
-  - [ ] UART0 TX/RX
-  - [ ] UART1 TX/RX
-  - [ ] I²C SDA/SCL
-  - [ ] ADC0, ADC1 mit AGND
-  - [ ] DAC_OUT mit AGND
-  - [ ] 3V3_SENSE
-  - [ ] GND mehrfach verteilt
+- [x] SHF-110-01-L-D-RA (2×10)
+- [x] Finales Pinout definiert:
+  - [x] UART0 TX/RX
+  - [x] UART1 TX/RX
+  - [x] I²C SDA/SCL
+  - [x] ADC0, ADC1 mit AGND
+  - [x] DAC_OUT mit AGND
+  - [x] 3V3_SENSE
+  - [x] GND mehrfach verteilt
 - [ ] ESD-Schutz und Serienwiderstände prüfen
-- [ ] Labeling für Orientierung (z. B. Pin 1 Markierung)
+- [x] Labeling für Orientierung (z. B. Pin 1 Markierung)
 
 ### 🧩 8. Mechanik & DUT-Steckplatz (`dut_mech.sch`)
-- [ ] Horizontale Buchse für DUT-Modul
-- [ ] USB-Verbindung vom Hub zum DUT
+- [x] Horizontale Buchse für DUT-Modul
+- [x] USB-Verbindung vom Hub zum DUT
 - [ ] Mechanischer Bereich für Modul-Tausch
-- [ ] Optional: Schraublöcher / Führung
+- [x] Optional: Schraublöcher / Führung
 - [ ] Platz für FM-Modul sicherstellen
 
 ### 🛠️ 9. Globales & Hilfsfunktionen (`globals.sch`)
-- [ ] Power-Netze global (VBUS, 3V3, GND, etc.)
+- [x] Power-Netze global (VBUS, 3V3, GND, etc.)
 - [ ] Labeling (Silkscreen, Versionsnummer)
 - [ ] I²C-Adressenübersicht
 - [ ] Schutzbeschaltungen

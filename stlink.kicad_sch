@@ -5,7 +5,7 @@
 	(uuid "48c68db9-5b98-499c-894d-6c9052f0029e")
 	(paper "A4")
 	(title_block
-		(title "DebugBoard")
+		(title "ST-Link Interface")
 		(rev "<<HASH>>")
 		(company "Amateurfunkclub für Remote Stationen")
 	)

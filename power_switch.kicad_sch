@@ -5,7 +5,7 @@
 	(uuid "9a4c4690-39e6-405f-b2fa-37cfa01584eb")
 	(paper "A4")
 	(title_block
-		(title "DebugBoard")
+		(title "DUT Power Control")
 		(rev "<<HASH>>")
 		(company "Amateurfunkclub für Remote Stationen")
 	)

@@ -5,7 +5,7 @@
 	(uuid "e4158a66-5531-44f3-a776-3b33e6965a53")
 	(paper "A4")
 	(title_block
-		(title "DebugBoard")
+		(title "DUT Interface Header")
 		(rev "<<HASH>>")
 		(company "Amateurfunkclub für Remote Stationen")
 	)
@@ -1338,6 +1338,535 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:BAT54CW"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.635 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAT54CW"
+				(at -6.35 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+				(at 1.905 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+				(at -2.032 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dual schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT54CW_0_1"
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -3.175 1.27) (xy -1.27 0) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0.635 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.175 1.27) (xy 1.27 0) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT54CW_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1475,6 +2004,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "795a9406-2631-4c19-952d-56b035f51e02")
+	)
+	(junction
+		(at 86.36 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1ea525a-f7e9-4329-bef3-6c94a733544e")
 	)
 	(junction
 		(at 118.11 93.98)
@@ -1680,6 +2215,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 78.74) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4159c6b9-2d22-42fb-9193-3719e1b47bde")
+	)
+	(wire
+		(pts
 			(xy 111.76 76.2) (xy 120.65 76.2)
 		)
 		(stroke
@@ -1760,6 +2305,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 78.74) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6778eede-33c5-47b5-abe7-b4e792700138")
+	)
+	(wire
+		(pts
 			(xy 43.18 38.1) (xy 52.07 38.1)
 		)
 		(stroke
@@ -1780,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 41.91) (xy 52.07 41.91)
+			(xy 33.02 41.91) (xy 52.07 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1847,6 +2402,16 @@
 			(type default)
 		)
 		(uuid "87799e5d-fbd7-4225-a160-84b57902d633")
+	)
+	(wire
+		(pts
+			(xy 86.36 78.74) (xy 86.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb02b98-da1a-40f6-b25e-69a56f86474d")
 	)
 	(wire
 		(pts
@@ -1920,6 +2485,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 74.93) (xy 57.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd95a5f-8590-4aed-aadb-1f5b08e8c903")
+	)
+	(wire
+		(pts
 			(xy 240.03 86.36) (xy 245.11 86.36)
 		)
 		(stroke
@@ -1930,16 +2505,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 78.74) (xy 120.65 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0de0530-62f2-451c-bd03-0b957b89d88f")
-	)
-	(wire
-		(pts
 			(xy 224.79 81.28) (xy 224.79 99.06)
 		)
 		(stroke
@@ -1947,6 +2512,16 @@
 			(type default)
 		)
 		(uuid "d529b505-1dc9-4431-b3a2-562291025a9f")
+	)
+	(wire
+		(pts
+			(xy 64.77 69.85) (xy 68.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02ae9fa-1964-4904-a8c0-974d995dd48f")
 	)
 	(wire
 		(pts
@@ -1990,6 +2565,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 66.04) (xy 86.36 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9ef23d-ccf2-4064-aab1-66a2e964b075")
+	)
+	(wire
+		(pts
 			(xy 133.35 91.44) (xy 143.51 91.44)
 		)
 		(stroke
@@ -1997,6 +2582,16 @@
 			(type default)
 		)
 		(uuid "ef06e42e-3ddf-4b43-91bd-bd56ed8e9d4d")
+	)
+	(wire
+		(pts
+			(xy 31.75 69.85) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8704b97-6bf6-449b-bc61-0ebae7a8afed")
 	)
 	(wire
 		(pts
@@ -2008,8 +2603,8 @@
 		)
 		(uuid "fa33591c-4977-4ce0-abda-4936c4c2ca34")
 	)
-	(label "nRESET"
-		(at 43.18 41.91 0)
+	(label "ST-LINK_nRESET"
+		(at 33.02 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2058,8 +2653,8 @@
 		)
 		(uuid "78a3d41f-1898-4f06-8d99-2148e38decbe")
 	)
-	(label "nRESET"
-		(at 93.98 80.01 0)
+	(label "ST-LINK_nRESET"
+		(at 31.75 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2067,6 +2662,17 @@
 			(justify left bottom)
 		)
 		(uuid "d2710f36-999f-48c0-87ab-be5282d92f3d")
+	)
+	(hierarchical_label "VCC_3V3"
+		(shape output)
+		(at 86.36 66.04 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a484b46-97cb-4e5d-845a-cdd10ec4c60b")
 	)
 	(hierarchical_label "USB+"
 		(shape bidirectional)
@@ -2244,16 +2850,97 @@
 		)
 		(uuid "e6e58269-e507-4594-aed2-8ac6d3f44144")
 	)
-	(hierarchical_label "RESET"
+	(hierarchical_label "DBG_nRESET"
 		(shape input)
-		(at 111.76 78.74 180)
+		(at 68.58 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fb278561-6b92-4cb8-9b66-4f358f72050d")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 19.05 190.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06db09a9-5f42-4bb0-bfe7-c9ee20d5a246")
+		(property "Reference" "H1002"
+			(at 21.59 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 21.59 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 19.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 19.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 19.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 19.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
+					(reference "H1002")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2265,7 +2952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "152078c3-cdb5-472d-a30d-d16383707b74")
-		(property "Reference" "#PWR01001"
+		(property "Reference" "#PWR01002"
 			(at 135.89 107.95 0)
 			(effects
 				(font
@@ -2315,7 +3002,166 @@
 		(instances
 			(project "main"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
-					(reference "#PWR01001")
+					(reference "#PWR01002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "324bfd18-9556-4e12-a76a-de1e88191ba4")
+		(property "Reference" "R1001"
+			(at 88.9 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 88.9 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 84.582 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5002b8f-8f68-4898-973a-5e8cd90a9ada")
+		)
+		(pin "2"
+			(uuid "876417a3-8dcb-4dfa-96f2-85780cfb437f")
+		)
+		(instances
+			(project "main"
+				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
+					(reference "R1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 57.15 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6813791f-c5e8-425e-8aaa-0ae87e9ef5f0")
+		(property "Reference" "D1001"
+			(at 57.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 59.055 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 55.118 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 57.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6c783a80-d3a6-43fa-a247-575cd77fc507")
+		)
+		(pin "2"
+			(uuid "5b4551eb-ad08-4d68-9a87-ec7c68c58acd")
+		)
+		(pin "1"
+			(uuid "cfce876a-5409-441a-a65a-58478a878442")
+		)
+		(instances
+			(project ""
+				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
+					(reference "D1001")
 					(unit 1)
 				)
 			)
@@ -2331,7 +3177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7def95f9-dd96-4fd0-b370-9993314fde84")
-		(property "Reference" "#PWR01002"
+		(property "Reference" "#PWR01001"
 			(at 118.11 107.95 0)
 			(effects
 				(font
@@ -2381,7 +3227,7 @@
 		(instances
 			(project "main"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
-					(reference "#PWR01002")
+					(reference "#PWR01001")
 					(unit 1)
 				)
 			)
@@ -2397,7 +3243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "914f876f-05c3-42e1-97f4-8a151e1983e3")
-		(property "Reference" "J203"
+		(property "Reference" "J1002"
 			(at 233.68 69.85 0)
 			(effects
 				(font
@@ -2521,7 +3367,88 @@
 		(instances
 			(project "main"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
-					(reference "J203")
+					(reference "J1002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 19.05 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af954408-d6b9-43b3-a168-6af7f1769cfe")
+		(property "Reference" "H1001"
+			(at 21.59 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 21.59 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 19.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 19.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 19.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 19.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
+					(reference "H1001")
 					(unit 1)
 				)
 			)
@@ -2537,7 +3464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e51ec7-fd63-452d-a380-233e9c213cac")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR01003"
 			(at 224.79 107.95 0)
 			(effects
 				(font
@@ -2587,7 +3514,88 @@
 		(instances
 			(project "main"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
-					(reference "#PWR0211")
+					(reference "#PWR01003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 190.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d72a98c6-5893-4a69-bcff-7c46832265be")
+		(property "Reference" "H1004"
+			(at 41.91 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 39.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 39.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 39.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
+					(reference "H1004")
 					(unit 1)
 				)
 			)
@@ -2603,7 +3611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8e31ff0-f41d-4cac-8d80-c05fe2b1b3b0")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR01004"
 			(at 242.57 107.95 0)
 			(effects
 				(font
@@ -2653,7 +3661,88 @@
 		(instances
 			(project "main"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
-					(reference "#PWR0212")
+					(reference "#PWR01004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 39.37 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e09a6205-68b5-454c-8241-fff5264d0474")
+		(property "Reference" "H1003"
+			(at 41.91 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 41.91 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER" ""
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
+					(reference "H1003")
 					(unit 1)
 				)
 			)
