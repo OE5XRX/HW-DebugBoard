@@ -31,6 +31,8 @@ fp-info-cache
 *.cache
 *.tmp
 
+output/
+
 # OS-specific files
 .DS_Store
 Thumbs.db
