@@ -701,7 +701,7 @@
 			(uuid "099832d9-0069-44db-9e36-bc2e2ea0eb4d")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/2986b648-d6e4-4f37-95a0-c0a0bf4ce6d9/7fb85a85-298d-489a-83e9-b51a73cb28d0"
 					(reference "#PWR01101")
 					(unit 1)
