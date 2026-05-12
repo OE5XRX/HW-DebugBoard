@@ -1158,7 +1158,7 @@
 			(uuid "fced5a03-edbb-42d7-9d6a-9ac649a5703f")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(reference "#FLG0101")
 					(unit 1)
@@ -1305,7 +1305,7 @@
 			(uuid "0e8b4ce3-7866-4e04-b2e0-e43622d7c3a4")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(reference "#PWR0101")
 					(unit 1)
@@ -1371,7 +1371,7 @@
 			(uuid "7871a9e5-28ca-4152-aafb-40465b3c4206")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(reference "#PWR0102")
 					(unit 1)
@@ -1452,7 +1452,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(reference "H104")
 					(unit 1)
@@ -1533,7 +1533,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(reference "H103")
 					(unit 1)
@@ -1657,7 +1657,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(page "4")
 				)
@@ -1719,7 +1719,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(page "6")
 				)
@@ -1941,7 +1941,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(page "2")
 				)
@@ -2003,7 +2003,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(page "3")
 				)
@@ -2195,7 +2195,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(page "10")
 				)
@@ -2337,7 +2337,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(page "5")
 				)
@@ -2449,7 +2449,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(page "9")
 				)
@@ -2511,7 +2511,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639"
 					(page "8")
 				)

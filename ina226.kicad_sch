@@ -1095,7 +1095,7 @@
 			(uuid "9dc4bad4-2f33-4ccd-beaf-9de51e931563")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/9647d80f-843f-45c0-950d-b04b6dbce3c2"
 					(reference "#PWR0902")
 					(unit 1)
@@ -1182,7 +1182,7 @@
 			(uuid "29420b0a-9b64-4f86-8aa4-cc9a2a6d529b")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/9647d80f-843f-45c0-950d-b04b6dbce3c2"
 					(reference "C901")
 					(unit 1)
@@ -1257,7 +1257,7 @@
 			(uuid "08b9bb52-0313-46c0-b75d-01c85d3737c1")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/9647d80f-843f-45c0-950d-b04b6dbce3c2"
 					(reference "#PWR0903")
 					(unit 1)
@@ -1323,7 +1323,7 @@
 			(uuid "8ed5bf20-3d5d-4813-a737-380cfba4740f")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/9647d80f-843f-45c0-950d-b04b6dbce3c2"
 					(reference "#PWR0904")
 					(unit 1)
@@ -1398,7 +1398,7 @@
 			(uuid "c6be0f5b-5eef-4b16-b417-eb02ca504770")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/9647d80f-843f-45c0-950d-b04b6dbce3c2"
 					(reference "#PWR0901")
 					(unit 1)
@@ -1486,7 +1486,7 @@
 			(uuid "cb1b26f8-9044-4f46-8f80-5414e03028ce")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/9647d80f-843f-45c0-950d-b04b6dbce3c2"
 					(reference "R901")
 					(unit 1)
@@ -1596,7 +1596,7 @@
 			(uuid "4d4d1224-6c3a-48c4-bcdb-26e46c06446e")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/9647d80f-843f-45c0-950d-b04b6dbce3c2"
 					(reference "U901")
 					(unit 1)

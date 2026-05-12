@@ -2934,7 +2934,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
 					(reference "H1002")
 					(unit 1)
@@ -3000,7 +3000,7 @@
 			(uuid "ebe50903-c0cc-4da9-a2cf-5f494047af12")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
 					(reference "#PWR01002")
 					(unit 1)
@@ -3087,7 +3087,7 @@
 			(uuid "876417a3-8dcb-4dfa-96f2-85780cfb437f")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
 					(reference "R1001")
 					(unit 1)
@@ -3225,7 +3225,7 @@
 			(uuid "67029118-4593-494c-a818-f35af413b50d")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
 					(reference "#PWR01001")
 					(unit 1)
@@ -3365,7 +3365,7 @@
 			(uuid "4364c0aa-6b88-4e3d-96b4-5e87e71966dc")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
 					(reference "J1002")
 					(unit 1)
@@ -3446,7 +3446,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
 					(reference "H1001")
 					(unit 1)
@@ -3512,7 +3512,7 @@
 			(uuid "029cc90e-bb88-4339-b703-a4405ac6a718")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
 					(reference "#PWR01003")
 					(unit 1)
@@ -3593,7 +3593,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
 					(reference "H1004")
 					(unit 1)
@@ -3659,7 +3659,7 @@
 			(uuid "3611844f-9b1d-4e4b-9c20-22f7b22de80b")
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
 					(reference "#PWR01004")
 					(unit 1)
@@ -3740,7 +3740,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
 					(reference "H1003")
 					(unit 1)
@@ -3945,7 +3945,7 @@
 			)
 		)
 		(instances
-			(project "main"
+			(project "DebugBoard"
 				(path "/f228839c-6576-40b2-ae70-679b7b460639/4f8158b0-0961-44de-9899-c669fc1a50b4"
 					(page "12")
 				)
